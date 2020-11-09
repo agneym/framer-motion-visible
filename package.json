@@ -1,0 +1,30 @@
+{
+  "name": "framer-motion-visible",
+  "version": "1.0.0",
+  "description": "Utility function to trigger framer motion animations when a node is visible in the viewport",
+  "source": "src/index.js",
+  "main": "dist/fm-visible.js",
+  "module": "dist/fm-visible.module.js",
+  "unpkg": "dist/fm-visible.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "keywords": [],
+  "author": "Agney <agney@outlook.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "microbundle": "^0.12.4",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
