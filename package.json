@@ -1,6 +1,6 @@
 {
   "name": "framer-motion-visible",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility function to trigger framer motion animations when a node is visible in the viewport",
   "source": "src/index.js",
   "main": "dist/fm-visible.js",
